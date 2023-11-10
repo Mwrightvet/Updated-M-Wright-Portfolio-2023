@@ -2,7 +2,9 @@
 Updated professional portfolio. 
 
 ## Table of Contents 
-
+[AboutMe]
+[Projects]
+[Contacme]
 
 
 
