@@ -48,10 +48,12 @@ li a:hover:not(.active) {
     border-radius: 5%;
 }
 
-
+.card-column {
+    text-align: center;
+  }
 /* Section Style */
 p {
-    text-align: justify; /* Center text in the sections */
+    text-align: justify /* Center text in the paragraphs */
 }
 
 .button button {
@@ -66,6 +68,10 @@ p {
 }
 
 /* Button style */
+.active {
+    background-color: #43aee77a;
+    border-radius: 5%;
+  }
 .button {
     background-color: #333;
     color: white;
@@ -117,10 +123,10 @@ p {
 }
 
 /* Clearfix */
-.card.code-card .clearfix:after {
-    content: "";
-    display: table;
+.card.code-card .clearfix {
     clear: both;
+    display: block;
+    text-align: center;
 }
 
 /* Code card styles */
