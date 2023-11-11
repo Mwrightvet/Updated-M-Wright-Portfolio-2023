@@ -4,29 +4,32 @@ Updated professional portfolio.
 ## Table of Contents 
 -[AcceptanceCriteria](#acceptance_criteria)
 -[DeployedSite](#deployed_site)
--[AboutMe](#About_me)
--[Projects](#Projects)
--[Contactme](#Contact_me)
--[Screnshots](#)
--[Credits]
+-[Screenshots](#Sreenshots)
+-[Credits](#Credits)
 
-## Acceptance_Criteria
-AC1 - portfolio website
-AC2 - developer's name, photo, sections: about, previous work and contact info.
-AC3 - navigation links jump links or anchor links to corresponding section
-AC4 - first project should have image larger in size than the others
-AC5 - each project has an image 
-AC6 - each project re-directs to deployed link of application/projects in portfolio
-AC7 - page resizes on various screens and devices with responsive layout  
+## acceptance_criteria
+Portfolio requirements include presenting the developer's name, recent photo, and navigation links to sections: about, work, and contact information. Clicking on navigation links smoothly scrolls to the corresponding sections. The "project" section displays titled images of the developer's applications, with the first image larger. Clicking on these images directs the user to the deployed applications. The portfolio must also exhibit a responsive layout, adapting to various screen sizes and devices.
 
 ## Deployed_Site 
 
 https://mwrightvet.github.io/Updated-M-Wright-Portfolio-2023/ 
 
-## About_me
+## PortfolioSections
+🌟 About Me
+🌟 Skills 
+🌟 Linkedin Profile 
+🌟 Projects
+🌟 Contact Information 
+ 
+## Screenshots  
 
-## Projects 
+![PortfolioSite](assets/website.gif)
 
-## Contact_me
 
-## 
+## Credits 
+Current Course Content from UCB Berkeley Full Stack Course
+For Past Projects: My github 
+For Past Projects: My project with a partner deployed on their Github https://github.com/magcox5/Project2-Pandemic
+Websites: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox 
+For Gallery: https://www.w3schools.com/csS/tryit.asp?filename=trycss_image_gallery_responsive
+For Emojis:https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md 
