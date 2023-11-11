@@ -4,7 +4,7 @@
 
 }
 
-/* Header styles */
+/* Header style */
 header {
     background-image: linear-gradient(black, grey, white, grey);
     color: dark-gray;
@@ -13,7 +13,7 @@ header {
     justify-content: space-between; /* keeps the navigation evenly spaced */
 }
 
-/* Navigation styles */
+/* Navigation style */
 nav {
     align-items: center; /* Centers them evenly*/
     display: flex;
@@ -48,12 +48,8 @@ li a:hover:not(.active) {
     border-radius: 5%;
 }
 
-.active {
-    background-color: #43aee77a;
-    border-radius: 5%;
-}
 
-/* Section Styles */
+/* Section Style */
 p {
     text-align: justify; /* Center text in the sections */
 }
@@ -69,7 +65,7 @@ p {
     height: auto;
 }
 
-/* Button styles */
+/* Button style */
 .button {
     background-color: #333;
     color: white;
@@ -84,7 +80,7 @@ p {
     background-color: #111; /* Navigation styles on hover */
 }
 
-/* Project Styles */
+/* Project Style */
 .projects-container {
     display: flex;
     overflow-x: auto;
