@@ -89,10 +89,9 @@ p {
 
 /* Project Style */
 .projects-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-card {
@@ -100,10 +99,21 @@ p {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .main-project {
-    grid-column: span 2; /* This card will span two columns for emphasis */
+    width: calc(66.666% - 10px); /* 66.666% of the container width minus margin */
+}
+
+.sub-project {
+    width: calc(33.333% - 10px); /* 33.333% of the container width minus margin */
+}
+
+.frame {
+    border: 2px solid #43aee7e5; /* Adjust the color of the frame as needed */
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .project-card img {
@@ -112,6 +122,7 @@ p {
     border-radius: 8px;
     margin-bottom: 10px;
 }
+
 
 
 /* Responsive design */
